@@ -4,4 +4,4 @@
 2. GIGABYTEの電源を入れる．
 3. 有線LANでノートPCとつなぐ．
 4. VNC Viewerを用いてGIGABYTEに接続する．
-5. ~/scripts/*.shを用いてwaypoints navigationの起動
+5. ~/scripts/*.shを用いてwaypoint navigationの起動
