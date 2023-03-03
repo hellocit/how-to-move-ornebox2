@@ -4,8 +4,10 @@
 2. GIGABYTEの電源を入れる．
 3. 有線LANでノートPCとbox2の背面にあるLANポートをつなぐ．
 4. VNC Viewerを用いてGIGABYTEに接続する．
-5. ~/scripts/*.shを用いてwaypoint navigationの起動する
+5. ~/scripts/*.shを用いてwaypoint navigationの起動する.
 
+## 地図生成
+* bringupを立ち上げてからgmapping.launchを立ち上げる.
 ## 運用上してはいけないこと
 * 主電源を入れたまま放置すること
   * バッテリーが上がってしまう．
