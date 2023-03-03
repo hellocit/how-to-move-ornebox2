@@ -6,6 +6,8 @@
 4. VNC Viewerを用いてGIGABYTEに接続する．
 5. ~/scripts/*.shを用いてwaypoint navigationの起動する
 
+## 地図生成
+* gmapping.launchを立ち上げる
 ## 運用上してはいけないこと
 * 主電源を入れたまま放置すること
   * バッテリーが上がってしまう．
