@@ -1,0 +1,322 @@
+1711  ls
+ 1712  cd
+ 1713  ls
+ 1714  cd bags/
+ 1715  ls
+ 1716  cd 1127
+ 1717  ls
+ 1718  cd
+ 1719  cd bags/
+ 1720  ls
+ 1721  cd 1128
+ 1722  ls
+ 1723  cd
+ 1724  poweroff
+ 1725  top
+ 1726  top -d 3
+ 1727  roslaunch orne_box_bringup orne_box_3d_lidar.launch
+ 1728  poweroff
+ 1729  ./scripts/run_tsukuba.sh
+ 1730  cd scripts/
+ 1731  ls
+ 1732  chmod +x run_tsudanuma_2022.sh
+ 1733  ls
+ 1734  ./run_tsudanuma_2022.sh
+ 1735  vim run_tsudanuma_2022.sh
+ 1736  ./run_tsudanuma_2022.sh
+ 1737  vim run_tsudanuma_2022.sh
+ 1738  ./run_tsudanuma_2022.sh
+ 1739  vim run_tsudanuma_2022.sh
+ 1740  ./run_tsudanuma_2022.sh
+ 1741  sar
+ 1742  sudo apt install sysstat
+ 1743  ./run_tsudanuma_2022.sh
+ 1744  ls
+ 1745  roscd bringup
+ 1746  roscd ornebox.launch
+ 1747  roscd orne_box.launch
+ 1748  ls
+ 1749  cd orne_ws/
+ 1750  ls
+ 1751  cd src
+ 1752  ls
+ 1753  cd
+ 1754  roscd orne_box_bringup
+ 1755  ls
+ 1756  cd launch/
+ 1757  ls
+ 1758  vim orne_box.launch
+ 1759  ls
+ 1760  cd includes/
+ 1761  ls
+ 1762  vim adis16465.launch
+ 1763  vim adis_rcv_csv_orne.launch
+ 1764  cd ..
+ 1765  ls
+ 1766  vim orne_box.launch
+ 1767  cr
+ 1768  cd
+ 1769  poweroff
+ 1770  roslaunch orne_box_bringup orne_box.launch
+ 1771  poweroff
+ 1772  ls -l /dev/serial/by-id
+ 1773  ls -l /dev/sensors/
+ 1774  sudo chmod 666 /dev/ttyACM2
+ 1775  rosnode list
+ 1776  ld
+ 1777  sudo apt install ros-noetic-rosserial-python
+ 1778  sudo apt update
+ 1779  sudo apt install ros-noetic-rosserial-python
+ 1780  source ~/.bashrc
+ 1781  roscore
+ 1782  source ~/.bashrc
+ 1783  roscore
+ 1784  tmux
+ 1785  tmux kill-server
+ 1786  rosrun rosserial-python
+ 1787  rosrun rosserial-python serial_node
+ 1788  roscd rosserial_python/
+ 1789  ls
+ 1790  cd
+ 1791  tmux
+ 1792  poweroff
+ 1793  ls
+ 1794  lsusb
+ 1795  ls -l /dev/serial/by-id
+ 1796  lsusb
+ 1797  cd /etc/udev/rules.d/
+ 1798  ls
+ 1799  vim 70-sensors.rules
+ 1800  sudo vim 70-sensors.rules
+ 1801  reboot
+ 1802  ls
+ 1803  cd scripts/
+ 1804  ls
+ 1805  cd ../
+ 1806  ls
+ 1807  cd scripts/
+ 1808  ls
+ 1809  sh run_tsudanuma_2.sh
+ 1810  ls
+ 1811  vim run_tsudanuma_2.sh
+ 1812  sh run_tsudanuma_2.sh
+ 1813  ls
+ 1814  sh run_tsudanuma_2022.sh
+ 1815  ls
+ 1816  sh run_tsudanuma.sh
+ 1817  rostopic list
+ 1818  rostopic echo /scan
+ 1819  ls
+ 1820  roscd orne_box_bringup/
+ 1821  ls
+ 1822  cd launch/
+ 1823  ls
+ 1824  cd includes/
+ 1825  ls
+ 1826  cd ../../../
+ 1827  ls
+ 1828  cd orne_box_navigation_executor/
+ 1829  ls
+ 1830  cd launch/
+ 1831  ls
+ 1832  roslaunch gmapping.launch
+ 1833  rvi
+ 1834  rviz
+ 1835  vim gmapping.launch
+ 1836  rostopic list
+ 1837  vim gmapping.launch
+ 1838  roslaunch gmapping.launch
+ 1839  ls
+ 1840  vim gmapping.launch
+ 1841  ls
+ 1842  roslaunch gmapping.launch
+ 1843  vim gmapping.launch
+ 1844  roslaunch gmapping.launch
+ 1845  vim gmapping.launch
+ 1846  roslaunch gmapping.launch
+ 1847  vim gmapping.launch
+ 1848  ls
+ 1849  roslaunch gmapping.launch
+ 1850  vim gmapping.launch
+ 1851  roslaunch gmapping.launch
+ 1852  vim gmapping.launch
+ 1853  roslaunch gmapping.launch
+ 1854  vim gmapping.launch
+ 1855  ls
+ 1856  cd ../
+ 1857  ls
+ 1858  cd config/
+ 1859  ls
+ 1860  cd initial_pose_cfg/
+ 1861  ls
+ 1862  cd ../../
+ 1863  ls
+ 1864  cd launch/
+ 1865  ls
+ 1866  vim gmapping.launch
+ 1867  roslaunch gmapping.launch
+ 1868  vim gmapping.launch
+ 1869  roslaunch gmapping.launch
+ 1870  roslaunch orne_box_bringup orne_box.launch
+ 1871  roscd orne_box_bringup/
+ 1872  ls
+ 1873  cd launch/
+ 1874  ls
+ 1875  cd includes/
+ 1876  vim urg.launch
+ 1877  roslaunch orne_box_bringup orne_box.launch
+ 1878  vim urg.launch
+ 1879  roslaunch orne_box_bringup orne_box.la
+ 1880  sudo poweroff
+ 1881  roscd orne_box_navigation_executor/launch/
+ 1882  roslaunch gmapping.launch
+ 1883  roslaunch orne_box_bringup orne_box.launch
+ 1884  poweroff
+ 1885  sudo poweroff
+ 1886  roslaunch orne_box_bringup orne_box.launch
+ 1887  sudo poweroff
+ 1888  poweroff
+ 1889  roslaunch orne_box_navigation_executor play_waypoints_nav_box.launch
+ 1890  ls
+ 1891  cd scripts/
+ 1892  ls
+ 1893  ./run_tsudanuma_nom.sh
+ 1894  ls
+ 1895  vim run_tsudanuma_2.sh
+ 1896  roslaunch orne_box_bringup orne_box.launch
+ 1897  sudo poweroff
+ 1898  roscore
+ 1899  ls
+ 1900  roscd orne_box
+ 1901  ls
+ 1902  cd ..
+ 1903  ls
+ 1904  cd orne_box_bringup/
+ 1905  ls
+ 1906  cd launch/
+ 1907  ls
+ 1908  cat orne_box.launch
+ 1909  code
+ 1910  vi orne_box.launch
+ 1911  ls
+ 1912  cd ..
+ 1913  ls
+ 1914  cd src/
+ 1915  ls
+ 1916  cd .
+ 1917  cd ..
+ 1918  ls
+ 1919  cd ..
+ 1920  ls
+ 1921  tree | grep launch
+ 1922  find launch
+ 1923  find * | grep launch
+ 1924  S
+ 1925  ls
+ 1926  cd ..
+ 1927  l
+ 1928  pushd
+ 1929  cd src/
+ 1930  ls
+ 1931  sudo poweroff
+ 1932  history
+ 1933  roslaunch orne_box_navigation_executor play_waypoints_nav_box.launch
+ 1934  history
+ 1935  roslaunch orne_box_bringup orne_box.launch
+ 1936  history
+ 1937  sudo poweroff
+ 1938  ls
+ 1939  cd
+ 1940  cd bags/
+ 1941  ls
+ 1942  mkdir 220321_mochi
+ 1943  ls
+ 1944  cd 220321_mochi/
+ 1945  ls
+ 1946  rosbag record -a
+ 1947  ls
+ 1948  rosbag play /home/orne-box/bags/220321_mochi/2023-03-02-19-37-54.bag
+ 1949  rviz
+ 1950  history
+ 1951  cat ~/.bash_history
+ 1952  find gmapping.launch
+ 1953  cd
+ 1954  cd orne_ws/src/
+ 1955  ls
+ 1956  cd orne-box/
+ 1957  ls
+ 1958  cd orne_box_navigation_executor/
+ 1959  cd launch/
+ 1960  ls
+ 1961  cat gmapping.launch
+ 1962  cd
+ 1963  rosbag play /home/orne-box/bags/220321_mochi/2023-03-02-19-37-54.bag
+ 1964  roscd map_server/
+ 1965  ls
+ 1966  cd src/
+ 1967  ls
+ 1968  roslaunch orne_box_navigation_executor gmapping.launch
+ 1969  roslaunch orne_box_navigation_executor play_waypoints_nav_box.launch map_file:=/home/orne_box/bags/220321_mochi/unch
+ 1970  roslaunch orne_box_navigation_executor play_waypoints_nav_box.launch map_file:=/home/orne-box/bags/220321_mochi/unch
+ 1971  roslaunch orne_box_navigation_executor play_waypoints_nav_box.launch map_file:=/home/orne-box/bags/220321_mochi/unch waypoint_config:=/home/orne-box/bags/220321_mochi/nav.yaml
+ 1972  cd
+ 1973  cd bags/220321_mochi/
+ 1974  rosrun gmapping slam_gmapping
+ 1975  cd
+ 1976  roscd waypoint_server/
+ 1977  ls
+ 1978  cd launch/
+ 1979  cat waypoint_server
+ 1980  cat waypoint_server.launch
+ 1981  ls
+ 1982  cd scripts/
+ 1983  ls
+ 1984  roslaunch orne_box_bringup orne_box.launch
+ 1985  ls
+ 1986  roslaunch orne_box_bringup orne_box.launch
+ 1987  cd
+ 1988  roscore
+ 1989  roslaunch orne_box_bringup orne_box.launch
+ 1990  cd
+ 1991  rosrun map_server map_server -f /home/orne-box/bags/220321_mochi/3f_test
+ 1992  rosrun map_server map_saver -f /home/orne-box/bags/220321_mochi/3f_test
+ 1993  rviz
+ 1994  rosrun map_server map_saver -f /home/orne-box/bags/220321_mochi/unch
+ 1995  roslaunch waypoint_server waypoint_server.launch
+ 1996  roslaunch orne_box_bringup orne_box.launch
+ 1997  sudo poweroff
+ 1998  roscd waypoint_server/config/
+ 1999  ls
+ 2000  cd routes/
+ 2001  ls
+ 2002  cd
+ 2003  cd bags/
+ 2004  ls
+ 2005  cd 220321_mochi/
+ 2006  ls
+ 2007  history
+ 2008  history  10
+ 2009  history  100
+ 2010  history 300 | tee hist.txt
+
+orne-box@ornebox2-gigabyte:~$ cat hist.txt
+ 1979  nautilus ~/bags/220321_mochi/
+ 1980  apt list | grep cart
+ 1981  c
+ 1982  cat .bashrc
+ 1983  cat .bashrc | grep sor
+ 1984  cat .bashrc | grep sou
+ 1985  roslaunch orne_box_navigation_executor gmapping.launch
+ 1986  cd bags/220321_mochi/
+ 1987  eog 35ten.pgm
+ 1988  history
+ 1989  rosrun map_server map_saver -f /home/orne-box/bags/220321_mochi/35ten
+ 1990  rosrun map_server map_saver -f /home/orne-box/bags/220321_mochi/ksmap
+ 1991  cd bags/220321_mochi/
+ 1992  ls
+ 1993  la
+ 1994  ls -a
+ 1995  ls -l
+ 1996  eog ksmap.pgm
+ 1997  history
+ 1998  history 20 | tee hist.txt
