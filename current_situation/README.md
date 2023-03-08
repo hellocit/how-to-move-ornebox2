@@ -14,6 +14,8 @@
   * このディレクトリにあるIMG_7445.jpgを参照のこと
   * 3/10午前と3/11すべてが比較的６号館の１階が使われていない日
   * これら２つの日以外は学会等で使用されていることが多い
+
+## test
 ## ルール
 * https://drive.google.com/file/d/1-QobU4ehfqgEPXchh3RPPVXsEuUhCAIm/view
 # References
